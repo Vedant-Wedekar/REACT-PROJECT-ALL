@@ -4,9 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const header = () => {
   return (
     <div className='w-full h-[10vh] flex justify-between items-center px-10'>
- 
-
-
 
  
       <div className="logo text-3xl font-bold">Logo.</div>
@@ -18,7 +15,7 @@ const header = () => {
         <div className="ca mr-0.5 gap-2 flex"> <div className="">&#x2022;</div> <h1>Home</h1></div>
         <div className="cb">New Courses</div>
       </div>    </div>
-
+        
       <div className="c2 flex justify-between items-center gap-3">
         <div className="w-[60px] h-[35px] border-zinc-400 border-1 pb-0.5 text-sm font-medium   rounded-4xl bg-zinc-100 flex justify-center items-center">Home</div>
         <div className="w-[75px] h-[35px] border-zinc-400 border-1 pb-0.5    text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">Courses</div>
