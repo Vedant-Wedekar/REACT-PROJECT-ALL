@@ -4,8 +4,8 @@ import Header from './components/Header'
 import Con from './components/Cone'
 import Spec from './components/Spec'
 import Cou from './components/Cou'
-// import Career from './components/Career'
-// import About from './components/About'
+import Career from './components/Career'
+import About from './components/About'
 // import Footer from './components/Footer'
 const App = () => {
   return (
@@ -14,9 +14,9 @@ const App = () => {
        <Con/>
        <Spec/>
     <Cou/>
-       {/* <Career/>
-      <About/>
-      <Footer/> */}
+     <Career/>
+        <About/>
+      {/* <Footer/> */}
     </div>
   )
 }
