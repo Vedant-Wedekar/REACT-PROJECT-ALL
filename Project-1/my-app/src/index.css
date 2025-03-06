@@ -1,1 +1,18 @@
 @import "tailwindcss";
+.about{
+    background-color: #A7D4FD;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #A7D4FD 40px), repeating-linear-gradient(#9CCFFA55, #9CCFFA);
+    height: 440px;
+    margin-top: 5rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0rem 2rem 6rem;
+    gap: 5rem;
+    margin: 80px 40px 0 40px;
+}
+
+.gradient{
+    background: linear-gradient(180deg, #fff 0%, #e0f2ff 20%, #b0d4ff 100%);
+    margin-top: 5rem;
+}
