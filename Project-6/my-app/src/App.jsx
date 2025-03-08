@@ -26,8 +26,7 @@ const App = () => {
       <Collect/>
       <Review/>
       <Image/>
-      <Footer
-      />
+      <Footer/>
     </div>
   )
 }
