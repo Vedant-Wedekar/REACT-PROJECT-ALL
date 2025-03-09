@@ -5,11 +5,15 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import { CiShoppingCart } from "react-icons/ci";
+import { CiBookmark } from "react-icons/ci";
+import { IoReorderThreeOutline } from "react-icons/io5";
+import Pro from '../assets/profile.png'
 
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
     width: 62,
-    height: 34,
+    height: 50,
     padding: 7,
     '& .MuiSwitch-switchBase': {
       margin: 1,
@@ -67,21 +71,41 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 const Header = () => {
   return (
-    <div className='flex justify-evenly items-center text-black'>
+    <div className='flex justify-evenly items-center py-5 text-black'>
 
-      <div className="logo">gummii</div>
+      <div className="logo  lf font-medium text-4xl ml-[-100px]">gummii</div>
 
-      <div className="loc">
+      <div className="loc flex justify-evenly gap-3.5 items-center ml-[-100px]  font-medium text-xl">
         <div className="time">06:00:00</div>
         <div className="date">Nagpur</div>
       </div>
 
-    
+
+
+<div className="flex justify-evenly items-center gap-10 ml-[200px] mr-[-100px]">
+<div className="ml-[200px]">
       <FormControlLabel
         control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}
-        label="MUI switch"
-      />
+        // label="MUI switch"
+      /></div>
 
+
+      
+      <div className="">
+        <div className="h-6 w-6 flex justify-center items-center text-sm bg-amber-300 rounded-full transform translate-y-[10px]">21</div>
+       <div className=""><CiBookmark  className='text-4xl  ml-[-20px] mt-[-5px]'/></div> 
+      </div>
+
+      <div className="">
+        <div className="h-6 w-6 flex justify-center items-center text-sm bg-amber-300 rounded-full transform translate-y-[10px]">1</div>
+       <div className=""><CiShoppingCart  className='text-4xl  ml-[-20px] mt-[-5px]'/></div> 
+      </div>    </div>
+
+      <div className="h-10 w-25 rounded-full border-2 border-zinc-300 flex justify-evenly items-center mr-[-100px]">
+        <div className="lines"><IoReorderThreeOutline className='text-3xl' /></div>
+        <div className="profile"><img className='h-8 w-8 rounded-full' src={Pro}></img></div>
+      </div>
+  
 
 
 
