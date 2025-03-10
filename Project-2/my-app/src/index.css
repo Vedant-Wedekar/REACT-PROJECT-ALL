@@ -4,3 +4,9 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 /*  */
+
+.pol{
+    background-color: aquamarine;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 38%);
+
+}
