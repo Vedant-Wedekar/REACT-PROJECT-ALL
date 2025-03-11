@@ -14,12 +14,9 @@ const Images = () => {
         {/* <div className="line">-------------------------------------------------</div> */}
         <div className="text-[#b1555b] text-[40px] font-extrathin forr mr-[200px]">FOLLOW US ON INSTAGRAM    </div>
         </div> 
-
-
         <div className="flex justify-center items-center w-[1700px]">
             <div className="h-[350px] w-[350px]"><img height={10} style={{width:'240px',height:'240px',marginLeft:'-70px'}} src={B90}></img></div>
       <div className="flex justify-center items-cente gap-[-200px]">   
-        
           <div className="h-[350px] w-[350px]"><img height={10} style={{width:'240px',height:'240px'}} src={B95}></img></div>
             <div className="h-[350px] w-[350px]"><img height={10} style={{width:'240px',height:'240px'}} src={B90}></img></div>
             <div className="h-[350px] w-[350px]"><img height={10} style={{width:'240px',height:'240px'}} src={B91}></img></div>
