@@ -29,7 +29,6 @@ const Baris = () => {
 
 
 
-
         <div className="three">
         <div className="grid h-[250px] border-2  place-items-start ">
             <div className="tit no">TRADITIONALLY FRESH ROASTED </div>
