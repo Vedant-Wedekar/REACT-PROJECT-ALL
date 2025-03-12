@@ -6,7 +6,7 @@
 /*  */
 
 .pol{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 38%);
-
+    border-radius: 30px;
 }
