@@ -1,0 +1,32 @@
+<input type="text" id="input" oninput="countChars()" placeholder="Type here...">
+<p>Characters: <span id="count">0</span></p>
+<script>
+function countChars() {
+    document.getElementById("count").innerText = document.getElementById("input").value.length;
+}
+</script>
+
+<p id="quote">Click the button to get a quote.</p>
+<button onclick="getQuote()">Get Quote</button>
+<script>
+const quotes = ["Believe in yourself!", "Never give up!", "Stay positive!", "You are amazing!"];
+function getQuote() {
+    document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+}
+</script>
+<p id="time">Click to show time.</p>
+<button onclick="showTime()">Show Time</button>
+<script>
+function showTime() {
+    setInterval(() => {
+        document.getElementById("time").innerText = new Date();
+    }, 300);}
+
+</script>
+<p id="ok"></p>
+<button onclick="ok()">OK</button>
+<script>    
+    function ok(){
+        document.getElementById("ok").innerText = "OK";
+    }
+</script>
