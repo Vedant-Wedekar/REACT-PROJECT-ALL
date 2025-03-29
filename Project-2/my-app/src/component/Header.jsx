@@ -67,8 +67,6 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
     },
   }));
 
-
-
 const Header = () => {
   return (
     <div className='flex justify-evenly items-center py-5 text-black'>
