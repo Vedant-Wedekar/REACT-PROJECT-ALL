@@ -37,9 +37,9 @@
   //         </div>
 
 
-import React from 'react'
-import star from '../assets/star.png'
-import pro from '../assets/profile.png'
+import React from 'react';
+import star from '../assets/star.png';
+import pro from '../assets/profile.png';
 import { CiSearch } from "react-icons/ci";
 const Flamigo = () => {
   return (
@@ -55,12 +55,10 @@ const Flamigo = () => {
       <div className="h-30 w-30 rounded-2xl bg-[#f5f2f2]">
         <div className="flex justify-space-evenly items-center gap-5 py-3">   <img className="h-10 w-10 rounded-full " src={pro}></img>
         <div className="h-7 w-7 bg-white rounded-full flex justify-center items-center">  <CiSearch /></div> </div>
-        
+  
         <div className="font-medium ">Your Partner <br></br>in Design</div>
       </div>
-
       </div>
-     
     </div>
   )
 }
