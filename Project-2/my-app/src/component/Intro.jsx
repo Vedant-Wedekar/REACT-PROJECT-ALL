@@ -3,8 +3,6 @@ import BG from '../assets/BG4.jpg'
 
 const Intro = () => {
   return (
-    
-    
     <div className='flex justify-evenly items-center w-full h-screen '>
 
 <div className="bg-[url(assets/BG4.jpg)] mt-[80px] h-[700px] rounded-4xl bg-cover  w-[1450px] ">
@@ -18,13 +16,10 @@ const Intro = () => {
             <div className=""></div>
         </div>
     </div>
-
-
     <div className="w-30 h-30  backdrop-blur-lg border-2 border-white blur-sm rounded-full"></div>
     <div className="w-30 h-30  rounded-full transform translate-y-[-45px] border-2 border-white"></div>
 
 </div>
-
 
 
 </div>
