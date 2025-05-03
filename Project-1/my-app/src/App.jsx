@@ -6,14 +6,14 @@ import Spec from './components/Spec'
 import Cou from './components/Cou'
 import Career from './components/Career'
 import About from './components/About'
-// import Footer from './components/Footer'
+import Footer from './components/Footer' 
 const App = () => {
   return (
     <div className='w-full min-h-screen'>
       <Header/>
        <Con/>
        <Spec/>
-    <Cou/>
+    <Cou/>  
      <Career/>
         <About/>
       <Footer/>
