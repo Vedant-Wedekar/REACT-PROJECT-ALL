@@ -10,13 +10,13 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div className='w-full min-h-screen'>
-      <Header/>
+       <Header/>
        <Con/>
        <Spec/>
-    <Cou/>  
-     <Career/>
-        <About/>
-      <Footer/>
+       <Cou/>  
+       <Career/>
+       <About/>
+       <Footer/>
     </div>
   )
 }
